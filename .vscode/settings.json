@@ -200,7 +200,9 @@
 
     // reposity
     "git.repository" : "https://github.com/easyjoker/callback-test.git",
-
+   
+    
+    
     //-------- JSON configuration --------
 
     // Associate schemas to JSON files in the current project
