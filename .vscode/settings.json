@@ -1,0 +1,446 @@
+// 將設定放入您的設定檔中加以覆寫。
+{
+
+    //-------- 編輯器組態 --------
+
+    // 控制字型家族。
+    "editor.fontFamily": "",
+
+    // 控制字型大小。
+    "editor.fontSize": 0,
+
+    // 控制行高。
+    "editor.lineHeight": 0,
+
+    // 控制是否顯示行號
+    "editor.lineNumbers": true,
+
+    // 控制是否顯示字符邊界
+    "editor.glyphMargin": false,
+
+    // 要在其中顯示垂直尺規的資料行
+    "editor.rulers": [],
+
+    // 執行文字相關導覽或作業時將作為文字分隔符號的字元
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+
+    // 與 Tab 相等的空格數量。
+    "editor.tabSize": 4,
+
+    // 按 Tab 時插入空格。
+    "editor.insertSpaces": true,
+
+    // 開啟檔案時，會依據檔案內容來偵測 `editor.tabSize` 及 `editor.insertSpaces`。
+    "editor.detectIndentation": true,
+
+    // 控制選取範圍是否有圓角
+    "editor.roundedSelection": true,
+
+    // 控制編輯器是否會捲動到最後一行之後
+    "editor.scrollBeyondLastLine": true,
+
+    // 控制編輯器換行到下一行的字元數。若將此項目設為 0，將會開啟檢視區寬度換行 (自動換行)。若將此項目設為 -1，將會強制編輯器永不換行。
+    "editor.wrappingColumn": 300,
+
+    // 控制換行的縮排。可以是 [無]、[相同] 或 [縮排]。
+    "editor.wrappingIndent": "same",
+
+    // 滑鼠滾輪捲動事件的 'deltaX' 與 'deltaY' 所使用的乘數
+    "editor.mouseWheelScrollSensitivity": 1,
+
+    // 控制輸入時是否應顯示快速建議
+    "editor.quickSuggestions": true,
+
+    // 控制延遲顯示快速建議的毫秒數
+    "editor.quickSuggestionsDelay": 10,
+
+    // 控制編輯器是否應在左括號後自動插入右括號
+    "editor.autoClosingBrackets": true,
+
+    // 控制編輯器是否應在輸入一行後自動格式化
+    "editor.formatOnType": false,
+
+    // 控制輸入觸發字元時，是否應自動顯示建議
+    "editor.suggestOnTriggerCharacters": true,
+
+    // 控制除了 'Tab' 外，是否也藉由按下 'Enter' 接受建議。如此可避免混淆要插入新行或接受建議。
+    "editor.acceptSuggestionOnEnter": true,
+
+    // 控制編輯器是否應反白顯示與選取範圍相似的符合項
+    "editor.selectionHighlight": true,
+
+    // 控制可在概觀尺規中相同位置顯示的裝飾項目數
+    "editor.overviewRulerLanes": 3,
+
+    // 控制游標閃爍動畫，接受的值為 'blink'、'visible' 和 'hidden'
+    "editor.cursorBlinking": "blink",
+
+    // 控制游標樣式，接受的值為 'block' 和 'line'
+    "editor.cursorStyle": "line",
+
+    // 啟用連字字型
+    "editor.fontLigatures": false,
+
+    // 控制游標是否應隱藏在概觀尺規中。
+    "editor.hideCursorInOverviewRuler": false,
+
+    // 控制編輯器是否應顯示空白字元
+    "editor.renderWhitespace": false,
+
+    // 控制編輯器是否會顯示支援編輯器的模式之參考資訊
+    "editor.referenceInfos": true,
+
+    // 控制編輯器是否已啟用程式碼摺疊功能
+    "editor.folding": true,
+
+    // 控制 Diff 編輯器要並排或內嵌顯示差異
+    "diffEditor.renderSideBySide": true,
+
+    // 控制 Diff 編輯器是否將開頭或尾端空白字元的變更顯示為差異
+    "diffEditor.ignoreTrimWhitespace": true,
+
+
+    //-------- 視窗組態 --------
+
+    // 啟用時，會在新視窗中開啟檔案，而不是重複使用現有的執行個體。
+    "window.openFilesInNewWindow": true,
+
+    // 控制重新啟動後重新開啟資料夾的方式。選取 [none] 永不重新開啟資料夾，選取 [one] 重新開啟最近一個使用的資料夾，或選取 [all] 重新開啟上一個工作階段的所有資料夾。
+    "window.reopenFolders": "one",
+
+    // 調整視窗的縮放比例。原始大小為 0，而且每個向上增量 (例如 1) 或向下增量 (例如 -1) 代表放大或縮小 20%。您也可以輸入小數，更細微地調整縮放比例。
+    "window.zoomLevel": 0,
+
+
+    //-------- 檔案組態 --------
+
+    // 設定 Glob 模式可包含檔案及資料夾。
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true
+    },
+
+    // 將檔案關聯設定為語言 (例如 "*.extension": "html")。這些語言優先於已安裝語言的預設關聯。
+    "files.associations": {},
+
+    // 讀取與寫入檔案時要使用的預設字元集編碼。
+    "files.encoding": "utf8",
+
+    // 預設行尾字元。
+    "files.eol": "\r\n",
+
+    // 若啟用，將在您儲存檔案時修剪尾端空白。
+    "files.trimTrailingWhitespace": false,
+
+    // 控制已變更檔案的自動儲存功能。接受的值: "off"、"afterDelay"、"onFocusChange"。如果設定為 "afterDelay"，您可以在 "files.autoSaveDelay" 中設定延遲時間。
+    "files.autoSave": "off",
+
+    // 控制經過這段延遲時間後會自動儲存已變更檔案的毫秒數。僅適用於 "files.autoSave" 設定為 "afterDelay" 時。
+    "files.autoSaveDelay": 1000,
+
+    // 將檔案路徑的 Glob 模式設定為從檔案監控排除。需要重新啟動才能變更此設定。當您發現 Code 在啟動時使用大量 CPU 時間時，可以排除較大的資料夾以降低初始負載。
+    "files.watcherExclude": {
+        "**/.git/objects/**": true
+    },
+
+
+    //-------- Emmet 組態 --------
+
+    // 如有啟用，只要按 Tab 鍵就能展開 Emmet 縮寫。
+    "emmet.triggerExpansionOnTab": true,
+
+
+    //-------- 檔案總管組態 --------
+
+    // 在捲軸出現前可顯示的工作檔案數目上限。
+    "explorer.workingFiles.maxVisible": 9,
+
+    // 控制工作檔案區段的高度是否應依項目數動態調整。
+    "explorer.workingFiles.dynamicHeight": true,
+
+    // 控制總管是否應在開啟檔案時自動加以顯示。
+    "explorer.autoReveal": true,
+
+
+    //-------- HTTP 組態 --------
+
+    // 要使用的 Proxy 設定。如果未設定，會從 http_proxy 與 https_proxy 環境變數取得設定。
+    "http.proxy": "",
+
+    // 是否應該針對提供的 CA 清單驗證 Proxy 伺服器憑證。
+    "http.proxyStrictSSL": true,
+
+
+    //-------- 搜尋組態 --------
+
+    // 設定 Glob 模式，以排除不要搜尋的檔案及資料夾。請從 file.exclude 設定繼承所有的 Glob 模式。
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true
+    },
+
+
+    //-------- 更新組態 --------
+
+    // 設定要從中接收更新的更新頻道。變更後需要重新啟動。
+    "update.channel": "default",
+
+
+    //-------- Git 組態 --------
+
+    // 已啟用 Git
+    "git.enabled": true,
+
+    // Git 可執行檔的路徑
+    "git.path": "C:\\Program Files\\Git\\bin",
+
+    // 是否啟用自動擷取。
+    "git.autofetch": true,
+
+    // reposity
+    "git.repository" : "https://github.com/easyjoker/callback-test.git",
+
+    //-------- JSON configuration --------
+
+    // Associate schemas to JSON files in the current project
+    "json.schemas": [],
+
+
+    //-------- Markdown 預覽組態 --------
+
+    // 從 Markdown 預覽可用的 CSS 樣式表之 URL 或本機路徑清單。
+    "markdown.styles": [],
+
+
+    //-------- HTML 設定 --------
+
+    // 每行的字元數上限 (0 = 停用)。
+    "html.format.wrapLineLength": 120,
+
+    // 不應重新格式化的標記清單，須以逗號分隔。'null' 的預設值為所有內嵌標記。
+    "html.format.unformatted": null,
+
+    // 縮排 <head> 及 <body> 區段。
+    "html.format.indentInnerHtml": false,
+
+    // 是否應保留項目前方現有的分行符號。僅適用於項目前方，而不適用於標記內或文字。
+    "html.format.preserveNewLines": true,
+
+    // 一個區塊要保留的最大分行符號數。使用 'null' 表示無限制。
+    "html.format.maxPreserveNewLines": null,
+
+    // 格式化並縮排 {{#foo}} 及 {{/foo}}。
+    "html.format.indentHandlebars": false,
+
+    // 以新行字元結尾。
+    "html.format.endWithNewline": false,
+
+    // 前方應有額外新行字元的標記清單，須以逗號分隔。'null' 的預設值為 "head, body, /html"。
+    "html.format.extraLiners": null,
+
+
+    //-------- CSS 組態 --------
+
+    // 控制 CSS 驗證和問題嚴重性。
+
+    // 啟用或停用所有驗證
+    "css.validate": true,
+
+    // 在使用廠商專屬的前置詞時，請確定也包括其他所有的廠商特定屬性。
+    "css.lint.compatibleVendorPrefixes": "ignore",
+
+    // 在使用廠商專屬的前置詞時，也包括標準屬性。
+    "css.lint.vendorPrefix": "warning",
+
+    // 請勿使用重複的樣式定義
+    "css.lint.duplicateProperties": "ignore",
+
+    // 請勿使用空白規則集
+    "css.lint.emptyRules": "warning",
+
+    // Import 陳述式不會平行載入
+    "css.lint.importStatement": "ignore",
+
+    // 使用填補或框線時不要使用寬度或高度。
+    "css.lint.boxModel": "ignore",
+
+    // 已知通用選取器 (*) 速度緩慢
+    "css.lint.universalSelector": "ignore",
+
+    // 零不需要任何單位
+    "css.lint.zeroUnits": "ignore",
+
+    // @font-face 規則必須定義 'src' 和 'font-family' 屬性
+    "css.lint.fontFaceProperties": "warning",
+
+    // 十六進位色彩必須由三個或六個十六進位數字組成
+    "css.lint.hexColorLength": "error",
+
+    // 無效的參數數目
+    "css.lint.argumentsInColorFunction": "error",
+
+    // 未知的屬性。
+    "css.lint.unknownProperties": "warning",
+
+    // 只有在支援 IE7 及更舊的版本時才需要 IE Hack
+    "css.lint.ieHack": "ignore",
+
+    // 未知的廠商專屬屬性。
+    "css.lint.unknownVendorSpecificProperties": "ignore",
+
+    // 屬性因顯示而忽略。例如，若為 'display: inline'，則 width、height、margin-top、margin-bottom 以及 float 屬性就不會有任何作用。
+    "css.lint.propertyIgnoredDueToDisplay": "warning",
+
+    // 避免使用 !important。這表示整個 CSS 的明確性皆失控，需要重構。
+    "css.lint.important": "ignore",
+
+    // 避免使用 'float'。浮動會使 CSS 脆弱，在版面配置的任一層面改變時容易中斷。
+    "css.lint.float": "ignore",
+
+    // 選取器不應包含 ID，因為這些規則與 HTML 結合過於緊密。
+    "css.lint.idSelector": "ignore",
+
+    //-------- SASS 組態 --------
+
+    // 控制 Sass 驗證和問題嚴重性。
+
+    // 啟用或停用所有驗證
+    "sass.validate": true,
+
+    // 在使用廠商專屬的前置詞時，請確定也包括其他所有的廠商特定屬性。
+    "sass.lint.compatibleVendorPrefixes": "ignore",
+
+    // 在使用廠商專屬的前置詞時，也包括標準屬性。
+    "sass.lint.vendorPrefix": "warning",
+
+    // 請勿使用重複的樣式定義
+    "sass.lint.duplicateProperties": "ignore",
+
+    // 請勿使用空白規則集
+    "sass.lint.emptyRules": "warning",
+
+    // Import 陳述式不會平行載入
+    "sass.lint.importStatement": "ignore",
+
+    // 使用填補或框線時不要使用寬度或高度。
+    "sass.lint.boxModel": "ignore",
+
+    // 已知通用選取器 (*) 速度緩慢
+    "sass.lint.universalSelector": "ignore",
+
+    // 零不需要任何單位
+    "sass.lint.zeroUnits": "ignore",
+
+    // @font-face 規則必須定義 'src' 和 'font-family' 屬性
+    "sass.lint.fontFaceProperties": "warning",
+
+    // 十六進位色彩必須由三個或六個十六進位數字組成
+    "sass.lint.hexColorLength": "error",
+
+    // 無效的參數數目
+    "sass.lint.argumentsInColorFunction": "error",
+
+    // 未知的屬性。
+    "sass.lint.unknownProperties": "warning",
+
+    // 只有在支援 IE7 及更舊的版本時才需要 IE Hack
+    "sass.lint.ieHack": "ignore",
+
+    // 未知的廠商專屬屬性。
+    "sass.lint.unknownVendorSpecificProperties": "ignore",
+
+    // 屬性因顯示而忽略。例如，若為 'display: inline'，則 width、height、margin-top、margin-bottom 以及 float 屬性就不會有任何作用。
+    "sass.lint.propertyIgnoredDueToDisplay": "warning",
+
+    // 避免使用 !important。這表示整個 CSS 的明確性皆失控，需要重構。
+    "sass.lint.important": "ignore",
+
+    // 避免使用 'float'。浮動會使 CSS 脆弱，在版面配置的任一層面改變時容易中斷。
+    "sass.lint.float": "ignore",
+
+    // 選取器不應包含 ID，因為這些規則與 HTML 結合過於緊密。
+    "sass.lint.idSelector": "ignore",
+
+
+    //-------- 終端機組態 --------
+
+    // Customizes which terminal to run on Windows.
+    "externalTerminal.windowsExec": "cmd",
+
+    // Customizes which terminal to run on Linux.
+    "externalTerminal.linuxExec": "x-terminal-emulator",
+
+
+    //-------- TypeScript 組態 --------
+
+    // 指定資料夾路徑，其中包含要使用的 tsserver 和 lib*.d.ts 檔案。
+    "typescript.tsdk": null,
+
+    // 使用其參數簽章完成函式。
+    "typescript.useCodeSnippetsOnMethodSuggest": false,
+
+    // 啟用 / 停用 TypeScript 驗證
+    "typescript.validate.enable": true,
+
+    // Enables tracing of messages send to the TS server
+    "typescript.tsserver.trace": "off",
+
+    // 定義逗號分隔符號後的空格處理
+    "typescript.format.insertSpaceAfterCommaDelimiter": true,
+
+    // 定義 for 陳述式內分號後的空格處理
+    "typescript.format.insertSpaceAfterSemicolonInForStatements": true,
+
+    // 定義二元運算子後的空格處理
+    "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+
+    // 定義控制流量陳述式內關鍵字後的空格處理
+    "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+
+    // 定義匿名函式之函式關鍵字後的空格處理
+    "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+
+    // 定義左括弧與非空白右括弧間的空格處理
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+
+    // 定義左中括弧與非空白右中括弧間的空格處理
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+
+    // 定義是否將左大括弧放入函式的新行
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+
+    // 定義是否將左大括弧放入控制區塊的新行
+    "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+
+    // 啟用 / 停用 JavaScript 驗證
+    "javascript.validate.enable": true,
+
+    // 定義逗號分隔符號後的空格處理
+    "javascript.format.insertSpaceAfterCommaDelimiter": true,
+
+    // 定義 for 陳述式內分號後的空格處理
+    "javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+
+    // 定義二元運算子後的空格處理
+    "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+
+    // 定義控制流量陳述式內關鍵字後的空格處理
+    "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+
+    // 定義匿名函式之函式關鍵字後的空格處理
+    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+
+    // 定義左括弧與非空白右括弧間的空格處理
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+
+    // 定義左中括弧與非空白右中括弧間的空格處理
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+
+    // 定義是否將左大括弧放入函式的新行
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+
+    // 定義是否將左大括弧放入控制區塊的新行
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false
+
+}
